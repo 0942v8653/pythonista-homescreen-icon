@@ -4,12 +4,7 @@ import io
 from ui import get_screen_size
 from scene import get_screen_scale
 
-iconwidth = {
-	768: 'a'
-}
-
 appsize = (120, 120)
-
 screensize = tuple(int(i*get_screen_scale()) for i in get_screen_size())
 
 if screensize[1] == 1136:
