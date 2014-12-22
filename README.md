@@ -15,3 +15,7 @@ with io.BytesIO() as b:
 	with zipfile.ZipFile(b) as z:
 		z.extractall()
 ```
+
+Once it's installed, add the chooseicon.py file to the action menu. and give it a nice name.
+
+Currently only tested on iPhone 5s, but it may work on iPhone 4/4s/6.
